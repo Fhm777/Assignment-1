@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        a{
+            color: black;
+        }
+        img{
+            border-radius: 100%;
+        }
+        table{
+            width: 35%;
+            text-align: center;
+        }
+        #uname, #pname, #rem, #Can{
+            text-align: left;
+        }
+        #uname, #pname{
+            font-weight: bold;
+        }
+        #Fpword{
+            text-align: right;
+        }
+        .text{
+            width: 550px;
+            padding: 6px;
+            border: 1px lightgray solid;
+            margin-bottom: 10px;
+        }
+        #login{
+            width: 565px;
+            padding: 9px;
+            border: 0;
+            background-color: rgb(76, 176, 80);
+            color: white;
+        }
+        #Can input{
+            background-color: rgb(244, 68, 50);
+            border: 0;
+            padding: 9px 15px 9px 15px;
+            border-radius: 5px;
+            color: white;
+            font-weight: bold;
+        }
+        #rem{
+            padding: 15px 0 15px 0;
+            border-bottom: 1px lightgray solid;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <form action="">
+            <table>
+                <tr>
+                    <td colspan="2"><img src="./avatar.png" width="200px"></td>
+                </tr>
+                <tr>
+                    <td id="uname" colspan="2">
+                        <label for="uname">Username</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input class="text" type="text" name="uname" placeholder="Enter Username"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td id="pname" colspan="2">
+                        <label for="pword">Password</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input class="text" type="password" name="pword" placeholder="Enter Password"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input id="login" type="submit" value="Login"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td id="rem" colspan="2">
+                        <input type="checkbox" checked/>Remember me
+                    </td>
+                </tr>
+                <tr>
+                    <td id="Can">
+                        <input type="reset" value="Cancel"/>
+                    </td>
+                    <td id="Fpword">
+                        <p>Forgot <a href="">password?</a><p>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </center>
+</body>
+</html>

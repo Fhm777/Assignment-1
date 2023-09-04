@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        main{
+            margin: 30px 0 0 70px;
+        }
+        ul{
+            list-style-type: none;
+            padding: 0;
+        }
+        a{
+            color: white;
+            text-decoration: none;
+            padding: 20px;
+        }
+        li{
+            position: absolute;
+            width: 125px;
+            border-radius: 0 5px 5px 0;
+            left: -80px;
+            transition: 0.3s;
+            padding: 15px 0 15px 0;
+        }
+        li:hover{
+            left: 0;
+        }
+        #l1{
+            background-color: rgb(4, 169, 109);
+            top: 30px;
+        }
+        #l2{
+            background-color: dodgerblue;
+            top: 88px;
+        }
+        #l3{
+            background-color: rgb(244, 66, 54);
+            top: 146px;
+        }
+        #l4{
+            background-color: dimgray;
+            top: 204px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li id="l1"><a href="">Home</a></li>
+            <li id="l2"><a href="">Blog</a></li>
+            <li id="l3"><a href="">Projects</a></li>
+            <li id="l4"><a href="">About</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h1>Hoverable Sidenav Buttons</h1>
+            <p>Hover over the buttons in the left side navigation to open them.</p>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a{
+            text-decoration: none;
+        }
+        #ul1{
+            list-style-type: none;
+            width: 230px;
+            padding: 10px 0px 0px 7px;
+        }
+        #ul1 li{
+            background-color: lightblue;
+            font-size: large;
+            padding: 10px;
+            width: 200px;
+        }
+        #lh1{
+            background-color: orange !important;
+        }
+        #lh1 a{
+            color: white;
+        }
+        #ul2{
+            list-style-type: none;
+            background-color: lightgray;
+            overflow: hidden;
+            padding: 0;
+        }
+        #ul2 li{
+            display: block;
+            float: left;
+            padding: 7px 13px 7px 13px;
+            border-left: 1px;
+            border-right: 0px;
+            border-top: 0px;
+            border-bottom: 0px;
+            border-style:solid;
+            border-color: blue;
+        }
+        #ul2 #le{
+            border-right: 1px solid blue;
+        }
+        #lh2{
+            background-color: gray;
+        }
+        #lh2 a{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <ul id="ul1">
+        <li id="lh1"><a href="">Home</a></li>
+        <li><a href="">Java</a></li>
+        <li><a href="">CSS</a></li>
+        <li><a href="">HTML</a></li>
+        <li><a href="">Bootstrap</a></li>
+    </ul>
+    <ul id="ul2">
+        <li id="lh2"><a href="">Home</a></li>
+        <li><a href="">Java</a></li>
+        <li><a href="">HTML</a></li>
+        <li id="le"><a href="">CSS</a></li>
+    </ul>
+</body>
+</html>

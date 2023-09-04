@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            margin: auto;
+            width: 800px;
+        }
+        table, th, td{
+            border: 2px solid;
+            border-radius: 10px;
+        }
+        #t2{
+            border: 0px;
+            height: 290px;
+            width: 410px;
+            margin-top: 20px;
+            border-spacing: 25px;
+        }
+        #t2 td{
+            color: yellowgreen;
+            border-width: 3px;
+        }
+        .tcell{
+            border-radius: 3px;
+        }
+        .tcell1{
+            border-radius: 7px;
+        }
+        .tcell2{
+            border-radius: 20px;
+        }
+        .tcell3{
+            border-radius: 100%;
+        }
+        .tcell4{
+            border-radius: 3px 20px 3px 20px;
+        }
+    </style>
+</head>
+<body>
+<table bordercolor="green" bgcolor="Aquamarine">
+    <tr>
+        <th width="40%">Firstname</th>
+        <th width="40%">Lastname</th>
+        <th width="20%">Age</th>
+    </tr>
+    <tr>
+        <td>Jill</td>
+        <td>Smith</td>
+        <td>50</td>
+    </tr>
+    <tr>
+        <td>Eve</td>
+        <td>Jackson</td>
+        <td>94</td>
+    </tr>
+    <tr>
+        <td>John</td>
+        <td>Doe</td>
+        <td>80</td>
+    </tr>
+</table>
+<table id="t2">
+    <tr>
+        <td class="tcell1"></td>
+        <td class="tcell1"></td>
+        <td class="tcell2"></td>
+    </tr>
+    <tr id="r2">
+        <td class="tcell1"></td>
+        <td class="tcell"></td>
+        <td class="tcell2"></td>
+    </tr>
+    <tr id="r3">
+        <td class="tcell3"></td>
+        <td class="tcell"></td>
+        <td class="tcell4"></td>
+    </tr>
+</table>
+</body>
+</html>

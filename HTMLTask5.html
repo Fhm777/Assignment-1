@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 700px;
+        }
+        td, th {
+            border: 1px solid;
+        }
+        th {
+            width: 20%;
+        }
+        .textBox {
+            width: 98.5%;
+        }
+        textarea {
+            width: 98.5%;
+            height: 100px;
+        }
+        h1 {
+            color: blue; 
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1>Registration form</h1>
+        <form action="">
+            <table>
+                <tr>
+                    <th><label for="fn">First Name</label></th>
+                    <td><input class="textBox" type="text" name="fn"/></td>
+                </tr>
+                <tr>
+                    <th><label for="ln">Last Name</label></th>
+                    <td><input class="textBox" type="text" name="ln"/></td>
+                </tr>        
+                <tr>
+                    <th><label for="em">Email</label></th>
+                    <td><input class="textBox" type="email" name="em"/></td>
+                </tr>        
+                <tr>
+                    <th><label for="pw">Password</label></th>
+                    <td><input class="textBox" type="password" name="pw"/></td>
+                </tr>        
+                <tr>
+                    <th><label for="rpw">Re Password</label></th>
+                    <td><input class="textBox" type="password" name="rpw"/></td>
+                </tr>        
+                <tr>
+                    <th rowspan="3"><label for="gender">Gender:</label></th>
+                    <tr>
+                        <td>
+                            <input type="radio" name="gender"/>Male
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="radio" name="gender"/>Female
+                        </td>
+                    </tr>
+                </tr>
+                <tr>
+                    <th><label for="age">Age:</label></th>
+                    <td><input class="textBox" type="text" name="age"></td>
+                </tr>        
+                <tr>
+                    <th><label for="pn">Phone Number</label></th>
+                    <td><input class="textBox" type="tel" name="tn"/></td>
+                </tr>
+                <tr>
+                    <th><label for="addr">Address</label></th>
+                    <td><textarea name="addr"></textarea></td>
+                </tr>
+                <tr>
+                    <th><label for="state">State</label></th>
+                    <td><input class="textBox" type="text" name="state"/></td>
+                </tr>
+                <tr>
+                    <th><label for="country">Country</label></th>
+                    <td>
+                        <select name="country">
+                            <option value="none" selected disabled hidden>Choose your country</option></th>
+                            <option value="Brazil">Brazil</option></th>
+                            <option value="India">India</option>
+                            <option value="Japan">Japan</option>
+                            <option value="Nepal">Nepal</option>
+                            <option value="Pakistan">Pakistan</option>
+                            <option value="Russia">Russia</option>
+                            <option value="Sri Lanka">Sri Lanka</option>
+                            <option value="United States of Amerca">United States of America</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th><label for="lang">Languages known</label></th>
+                    <td>
+                        <input type="checkbox" name="lang"/>English
+                        <input type="checkbox" name="lang"/>Kannada
+                        <input type="checkbox" name="lang"/>Hindi
+                        <input type="checkbox" name="lang"/>Telungu
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="checkbox" checked/> Hereby I declare all the given details are true
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="right">
+                        Log in to <a href="https://ethnus.com/">Ethnus</a> website
+                    </td>
+                </tr>
+            </table>
+            <input style="margin-top: 15px;" type="submit" value="Register">
+        </form>
+    </center>
+</body>
+</html>
